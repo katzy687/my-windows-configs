@@ -1,0 +1,12 @@
+b=cd..
+e=explorer $*
+touch=fsutil file createnew $* 0
+qs=cd C:\Program Files (x86)\QualiSystems\CloudShell\Server
+es=cd C:\Program Files (x86)\QualiSystems\TestShell\ExecutionServer
+qp=cd C:\Program Files (x86)\QualiSystems\CloudShell\Portal
+qslogs=cd C:\Program Files (x86)\QualiSystems\CloudShell\Server\Logs\QsPythonDriverHost $T explorer .
+eslogs=cd C:\Program Files (x86)\QualiSystems\TestShell\ExecutionServer\Logs\QsPythonDriverHost $T explorer .
+qplogs=cd C:\Program Files (x86)\QualiSystems\CloudShell\Portal\Logs $T explorer .
+home=cd %userprofile%
+pc=pycharm64.exe $*
+st=speedtest-cli $*
