@@ -1,0 +1,7 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+name = katzy687
+email = katzy687@gmail.com
+[core]
+editor = 'C:\\Program Files\\Microsoft VS Code\\code.exe' -n -w
